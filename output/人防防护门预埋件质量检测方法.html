@@ -1131,7 +1131,7 @@ footer .doc-meta dd{margin:0;font-size:13px;color:var(--ink)}
       <!-- 对角线 -->
       <line x1="160" y1="110" x2="460" y2="490" stroke="#b3542c" stroke-width="1.4" stroke-dasharray="7 5"/>
       <line x1="460" y1="110" x2="160" y2="490" stroke="#b3542c" stroke-width="1.4" stroke-dasharray="7 5"/>
-      <text x="310" y="300" class="ts" text-anchor="middle" style="fill:var(--accent2)">d₁ / d₂</text>
+      <text x="310" y="300" class="ts" text-anchor="middle" style="fill:var(--accent2)">d1 / d2</text>
 
       <!-- 宽高尺寸 -->
       <line x1="120" y1="530" x2="500" y2="530" class="dim" marker-start="url(#dimA8)" marker-end="url(#dimB8)"/>
@@ -1148,7 +1148,7 @@ footer .doc-meta dd{margin:0;font-size:13px;color:var(--ink)}
       <line x1="540" y1="70" x2="540" y2="490" stroke="#0e5b57" stroke-width="2"/>
       <line x1="520" y1="70" x2="560" y2="70" stroke="#0e5b57" stroke-width="1.4"/>
       <path d="M540 490 q14 -8 18 -34" fill="none" stroke="#b3542c" stroke-width="2"/>
-      <text x="566" y="470" class="ts" style="fill:var(--accent2)">Δ ≤ 3 mm</text>
+      <text x="522" y="474" class="ts" text-anchor="end" style="fill:var(--accent2)">Δ≤3 mm</text>
 
       <!-- 水平度 -->
       <rect x="120" y="44" width="380" height="12" fill="#dfeae7" stroke="#0e5b57"/>
@@ -1173,12 +1173,12 @@ footer .doc-meta dd{margin:0;font-size:13px;color:var(--ink)}
       <text x="590" y="352" class="ts">① 宽、高：钢卷尺量内口，</text>
       <text x="590" y="369" class="ts">    上、中、下三处取平均</text>
       <text x="590" y="392" class="ts">② 对角线：拉通线或用激光</text>
-      <text x="590" y="409" class="ts">    测距仪测 d₁、d₂</text>
-      <text x="590" y="432" class="ts">③ 垂直度：线锤或经纬仪</text>
+      <text x="590" y="409" class="ts">    测距仪测 d1、d2</text>
+      <text x="590" y="432" class="ts">③ 垂直度：线锤或经纬仪，Δ≤3 mm</text>
       <text x="590" y="455" class="ts">④ 水平度：水平仪 / 水准尺</text>
       <text x="590" y="478" class="ts">⑤ 间隙：塞尺逐边检查</text>
     </svg>
-    <figcaption><b>图 8　门框尺寸、对角线、垂直度与框墙间隙量测。</b>对角线差 Δ=|d₁−d₂|；宽高各测上、中、下三处；垂直度用线锤或经纬仪。</figcaption>
+    <figcaption><b>图 8　门框尺寸、对角线、垂直度与框墙间隙量测。</b>对角线差 Δ=|d1−d2|；宽高各测上、中、下三处；垂直度用线锤或经纬仪。</figcaption>
   </figure>
 
   <div class="table-wrap">
@@ -1194,7 +1194,7 @@ footer .doc-meta dd{margin:0;font-size:13px;color:var(--ink)}
         <tr><td>门框垂直度</td><td class="c">≤3 mm（H≤3 m）<br>或 1/1000</td><td>线锤、经纬仪</td></tr>
         <tr><td>门框水平度</td><td class="c">≤2 mm/m</td><td>水平仪、水准尺</td></tr>
         <tr><td>门框内宽、内高</td><td class="c">±3 mm</td><td>钢卷尺，上中下三点</td></tr>
-        <tr><td>对角线差 |d₁−d₂|</td><td class="c">≤5 mm</td><td>通线、激光测距仪</td></tr>
+        <tr><td>对角线差 |d1−d2|</td><td class="c">≤5 mm</td><td>通线、激光测距仪</td></tr>
       </tbody>
     </table>
   </div>
@@ -1333,6 +1333,12 @@ footer .doc-meta dd{margin:0;font-size:13px;color:var(--ink)}
     加载至设计承载力的 1.5 倍并持荷 2 min，观察有无滑移、裂缝或混凝土局部破坏。
   </p>
 
+  <div class="callout">
+    <div class="ct">关于混凝土强度</div>
+    锚固区混凝土应达到设计强度后方可进行拉拔检验。隐蔽前应核查同条件养护试块报告；未达强度时不得拉拔，
+    可在浇筑后按设计要求的龄期补做，但不得以此替代隐蔽前的其他检测项目。
+  </div>
+
   <figure>
     <div class="fig-kicker">Figure 11 · 拉拔试验</div>
     <svg viewBox="0 0 900 430" role="img" aria-label="预埋锚筋现场拉拔试验装置示意">
@@ -1392,12 +1398,6 @@ footer .doc-meta dd{margin:0;font-size:13px;color:var(--ink)}
     </svg>
     <figcaption><b>图 11　预埋锚筋现场拉拔试验装置。</b>反力架应支承稳固，加载方向与锚筋轴线一致；出现滑移或混凝土破坏时立即停止加载并记录。</figcaption>
   </figure>
-
-  <div class="callout">
-    <div class="ct">关于混凝土强度</div>
-    锚固区混凝土应达到设计强度后方可进行拉拔检验。隐蔽前应核查同条件养护试块报告；未达强度时不得拉拔，
-    可在浇筑后按设计要求的龄期补做，但不得以此替代隐蔽前的其他检测项目。
-  </div>
 </section>
 
 <!-- ============ 5 ============ -->
@@ -1813,13 +1813,9 @@ footer .doc-meta dd{margin:0;font-size:13px;color:var(--ink)}
         <tr><td>8</td><td>数量与位置</td><td>符合设计；±10 mm</td><td></td><td></td><td></td></tr>
         <tr><td>9</td><td>垂直度 / 对角线差</td><td>≤3 mm / ≤5 mm</td><td></td><td></td><td></td></tr>
         <tr><td colspan="6" style="height:46px">检验批结论：　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</td></tr>
+        <tr><td colspan="6" style="height:34px">检测人：＿＿＿＿＿＿　　　　复核人：＿＿＿＿＿＿　　　　监理见证：＿＿＿＿＿＿</td></tr>
       </tbody>
     </table>
-  </div>
-  <div class="sig">
-    <div>检测人：<span></span></div>
-    <div>复核人：<span></span></div>
-    <div>监理见证：<span></span></div>
   </div>
 
   <h3>附表 C　隐蔽前资料自查表</h3>
